@@ -1,0 +1,31 @@
+# ガード節の後の空行
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
+
+# クラスの行数が多すぎる
+ClassLength:
+  Enabled: false
+
+# 行が長すぎる
+LineLength:
+  Enabled: false
+
+# メソッドの行数が多すぎる
+MethodLength:
+  Enabled: false
+
+# クラスにコメントを残さない
+Documentation:
+  Enabled: false
+
+# 日本語のコメント
+Style/AsciiComments:
+  Enabled: false
+
+# Copしないファイル
+AllCops:
+  Exclude:
+    - db/schema.rb
+    - db/migrate/**/*
+    - tmp/**/*
+    - node_modules/**/*
