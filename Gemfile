@@ -36,7 +36,7 @@ group :development, :test do
 
   ### Refactoring tools
   # check Ruby coding rule
-  gem 'rubocop', '0.74.0', require: false
+  gem 'rubocop', '0.82.0', require: false
 end
 
 group :development do
